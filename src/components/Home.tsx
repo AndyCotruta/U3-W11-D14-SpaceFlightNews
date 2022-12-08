@@ -29,7 +29,7 @@ const Home = () => {
   return (
     <div className="body">
       <Welcome />
-      <Row className="justify-content-center px-4 py-4">
+      <Row className="justify-content-center mx-2 py-4">
         {articlesList.map((article) => (
           <ArticleList articleData={article} key={article.id} />
         ))}
