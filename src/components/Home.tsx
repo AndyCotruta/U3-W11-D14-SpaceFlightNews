@@ -29,6 +29,7 @@ const Home = () => {
   return (
     <div className="body">
       <Welcome />
+      <h1 className="px-4 my-2 text-white">Articles</h1>
       <Row className="justify-content-center mx-2 py-4">
         {articlesList.map((article) => (
           <ArticleList articleData={article} key={article.id} />

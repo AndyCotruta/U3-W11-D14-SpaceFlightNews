@@ -7,6 +7,14 @@
   color: white !important;
 }
 
+.navlink {
+  color: white;
+}
+
+.navlink:hover {
+  text-decoration: none !important;
+}
+
 .welcome {
   background-image: url("https://www.rfa.space/wp-content/uploads/RFA-One-Horizontal-w-flame-and-background-2.jpg");
   background-repeat: no-repeat;
