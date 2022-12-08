@@ -13,7 +13,7 @@ function App() {
         <MyNav />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/mainArticle" element={<MainArticle />} />
+          <Route path="/mainArticle/:id" element={<MainArticle />} />
         </Routes>
       </div>
     </BrowserRouter>

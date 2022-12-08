@@ -2,13 +2,10 @@ import { Jumbotron } from "react-bootstrap";
 
 const Welcome = () => {
   return (
-    <Jumbotron>
-      <h1>Hello, world!</h1>
-      <p>
-        This is a simple hero unit, a simple jumbotron-style component for
-        calling extra attention to featured content or information.
-      </p>
-    </Jumbotron>
+    <div className="welcome">
+      <h1>Welcome to SPACEFLIGHT NEWS</h1>
+      <p>The place to fing best articles about spaceflights.</p>
+    </div>
   );
 };
 

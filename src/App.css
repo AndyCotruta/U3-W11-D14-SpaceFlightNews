@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.body {
+  background-color: #002a37;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background-color: #002a37;
+  color: white !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.welcome {
+  background-image: url("https://www.rfa.space/wp-content/uploads/RFA-One-Horizontal-w-flame-and-background-2.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 500px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-position: center center;
+  padding: 1rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.article-img {
+  height: 150px;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #687e9a;
+  color: white;
+  padding: 0.5rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.875rem;
+}
+
+.mainImg {
+  width: 500px;
+}
+
+.summary {
+  font-size: 1.5rem;
 }
