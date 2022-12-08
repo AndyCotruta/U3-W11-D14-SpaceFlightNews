@@ -21,7 +21,7 @@ const MyNav = () => {
               Home
             </div>
           </Link>
-          <Link to={"/"}>
+          <Link to={"/ContactUs"}>
             <div className="nav-link">Contact Us</div>
           </Link>
         </Nav>
